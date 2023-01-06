@@ -15,7 +15,7 @@ import User from "./User";
 
 function App() {
   let location = useLocation();
-  // console.log(location)
+
   return (
     <div>
       {location.pathname !== "/signup" && location.pathname !== "/login" && (
