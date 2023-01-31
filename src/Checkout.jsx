@@ -132,7 +132,6 @@ export default function Checkout() {
               id="outlined-required"
               label="State"
               className="textfield"
-
               //   defaultValue="Last Name"
             />
           </div>

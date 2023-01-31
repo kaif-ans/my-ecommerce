@@ -9,14 +9,16 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import HowerRating from "./Rating";
 import { Link } from "react-router-dom";
-import Stack from '@mui/material/Stack';
+import Stack from "@mui/material/Stack";
 
 function ProductDetails() {
   const { id } = useParams();
-  const { products, cart, handleCart, wishlist, handleWishlist } = useContext(Context);
+  const { products, cart, handleCart, wishlist, handleWishlist } =
+    useContext(Context);
 
   const p = products.find((p) => p.id == id);
   console.log(p);
+
   return (
     <div className="full-detail-div">
       <Card sx={{ maxWidth: "max-content" }}>
@@ -60,7 +62,7 @@ function ProductDetails() {
                     ? "Remove from Wishlist"
                     : "Add to Wishlist"}
                 </Button>
-                  {/* <Button size="small" variant="outlined">
+                {/* <Button size="small" variant="outlined">
                     Add to Wishlist
                   </Button> */}
               </Stack>
