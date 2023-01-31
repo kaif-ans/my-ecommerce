@@ -67,8 +67,6 @@ export default function Checkout() {
               id="outlined-required"
               label="Last Name"
               className="textfield"
-
-
               //   defaultValue="Last Name"
             />
             <TextField
