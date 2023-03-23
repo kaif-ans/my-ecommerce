@@ -8,6 +8,7 @@ function User() {
     localStorage.clear();
     navigate("/");
   }
+  
   return (
     <div className="user-pg">
       <p>Welcome User </p>
